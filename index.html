@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="CSS/materialize.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="CSS/Style.css"  media="screen,projection"/>
+    <link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	
+    <title>Amazon Socks</title>
+    
+  </head>
+  <body>
+  	<h1>Amazon Socks</h1>
+	
+	<nav class= "navbar">
+      <div class="nav-wrapper">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>
+    </nav>
+	
+	<div class="row">
+      <form class="col s12 xs12 m12 l12" id="frmCadastre">
+        <div class="row">
+        <ul> 
+		  	  <li> 
+			   		<label for="txtNombre"> Nombre:</label> 
+					<input type="text" id="txtName"/> 
+			  </li> 
+			  <li> 
+			   		<label for="txtMarca">Marca:</label> 
+					<input type="text" id="txtNombre"/> 
+			  </li> 
+			  <li> 
+			  	   <label for="txtColor">Color:</label> 
+			  	   <input type="text" id="txtColor"/> 
+			  </li> 
+			  <li> 
+			  	   <label for="txtTalla">Talla:</label> 
+				   <input type="text" id="txtTalla"/> 
+			  </li> 
+			  <li> 
+			   		<label for="txtTipo"> Tipo:</label> 
+					<input type="text" id="txtTipo"/> 
+			  </li> 
+			  <li> 
+			   		<label for="txtStamp">Estampado:</label> 
+					<input type="text" id="txtStamp"/>
+			  </li> 
+			  <li> 
+			  	   <label for="txtGenero">Genero:</label> 
+			  	   <input type="text" id="txtGenero"/> 
+			  </li> 
+			  <li> 
+			   		<label for="txtPrecio"> Precio:</label> 
+					<input type="text" id="txtPrecio"/> 
+			  </li>  
+		</ul>
+
+		<li>
+				<input type="submit" value="Save" id="btnSave"/>
+			</li>
+
+        
+      </form>
+	  <table id="tblList">
+
+	  </table>
+    </div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="JS/materialize.js"></script>
+      <script type="text/javascript" src="JS/examen.js"></script>
+  </body>
+</html>
